@@ -1,6 +1,6 @@
 package aggregate
 
-// Aggregate represents an aggregate entity (what we call subsystem in Syntropy).
+// Aggregate represents an aggregate entity (a distinct subystem).
 type Aggregate interface {
 	// Returns the cluster-unique ID of this Aggregate
 	AggregateID() ID
