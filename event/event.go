@@ -7,7 +7,7 @@ type Event interface {
 	// Source specifies origin of this event (may be empty)
 	Source() aggregate.ID
 
-	// Dest is intended destination aggregate (may be also be empty)
+	// Dest is intended destination aggregate (may not be empty)
 	Dest() aggregate.ID
 }
 
